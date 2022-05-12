@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freeshman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header sticky">
+        <div class="container">
+            <div class="header__inner">
+              <nav class="menu">
+                <ul class="menu__list">
+                  <li class="menu__list-item">
+                    <a class="menu__list-link" href="about.html">About</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__list-link" href="news.html">News</a>
+                  </li>
+                </ul>
+              </nav>
+              <a class="logo" href="index.html">
+                <img src="images/web-elements/logo.jpg" alt="logo">
+              </a>
+              <nav class="menu">
+                <ul class="menu__list">
+                  <li class="menu__list-item">
+                    <a class="menu__list-link menu__list-link--active" href="courses.html">Courses</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__list-link" href="programs.html">Programs</a>
+                  </li>
+                </ul>
+              </nav>
+              <button class="header__btn hidden">
+                <img src="images/web-elements/icon_menu.svg" alt="icon menu">
+              </button>
+              <div class="rightside-menu rightside-menu--close">
+                <button class="rightside-menu__close">
+                  <img src="images/web-elements/close.svg" alt="">
+                </button>
+                <div class="rightside-menu__content">
+                  <h4 class="rightside-menu__title">
+                    Furniture for life
+                  </h4>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main courses__main">
+        <section class="courses">
+          <div class="container">
+            <div class="courses__inner">
+              <!-- <div class="courses__top">
+                <div class="courses__filters">
+                  <div class="courses__filter">
+                    <div class="courses__filter-label">
+                      Category:
+                    </div>
+                    <div class="courses__filter-buttons">
+                      <btn class="courses__filter-button">
+                        All <span class="caret"></span>
+                      </btn>
+                      <ul class="courses__filter-button--dropdown hidden">
+                        <li>
+                          <a href="#">SAT</a>
+                        </li>
+                        <li>
+                          <a href="#">IELTS</a>
+                        </li>
+                        <li>
+                          <a href="#">General English</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="courses__filter">
+                    <div class="courses__filter-label">
+                      Teachers:
+                    </div>
+                    <div class="courses__filter-buttons">
+                      <btn class="courses__filter-button">
+                          All <span class="caret"></span>
+                      </btn>
+                      <ul class="courses__filter-button--dropdown hidden">
+                        <li>
+                          <a href="#">Valera Arakelyan</a>
+                        </li>
+                        <li>
+                          <a href="#">Emma Grimley</a>
+                        </li>
+                        <li>
+                          <a href="#">Umid Usmanov</a>
+                        </li>
+                        <li>
+                          <a href="#">Alisher Alibekov</a>
+                        </li>
+                        <li>
+                          <a href="#">Kristina Sargsyan</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+              <div class="courses__cards">
+                <div class="courses__card">
+                  <div class="courses__card-image">
+                    <img src="images/courses/sat-course.jpg" alt="course">
+                    <div class="courses__card-image--inner">
+                      <div class="courses__card-image--title">
+                        Course Info
+                      </div>
+                      <ul class="courses__card-image--items">
+                        <li class="courses__card-image--item">
+                          <span>Starts:</span> May 15
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Schedule:</span> To be determined soon
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Skill Requirement:</span> Upper-Intermediate level and higher
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Technical Requirement:</span> Good internet connection, laptop, and headset
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Course Duration:</span> 2 months
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Platforms Used:</span> Zoom, GG Classroom
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Max Class Capacity:</span> 20 students
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="courses__card-content">
+                    <div>
+                      <h3 class="courses__card-title">SAT English</h3>
+                      <div class="courses__card-text">
+                        This program aims to equip students with a thorough understanding
+                        of SAT Reading and Writing.
+                        <div class="courses__card-div read-less">
+                          The English section of the exam is seen
+                          as very challenging, but this program makes the preparation
+                          seamless and fun. You will learn to effectively examine reading
+                          passages and gain a profound understanding of SAT-specific English
+                          grammar. Students will read and analyze academic texts and submit
+                          short essays, which will prepare them both for the exam and the
+                          demanding undergraduate experience ahead.
+                        </div>
+                      </div>
+                      <div class="courses__card-detail read-less">
+                        <p class="courses__card-price">Total Price: $119</p>
+                        <a class="courses__card-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdlSMnXNSQDfZFYbJVBpx74UKf0wm-WMOwyNdQCJowcnG034w/viewform">Click to reserve a spot</a>
+                      </div>
+                    </div>
+                    <div class="courses__card-footer">
+                      <div class="courses__card-authors">
+                        <div class="courses__card-author">
+                          <img class="courses__card-author--image" src="images/team/umid-small.jpg" alt="teacher">
+                          <h6 class="courses__card-author--name">Umid Usmanov</h6>
+                        </div>
+                      </div>
+                      <div class="courses__card-info">
+                        Read more..
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="courses__card">
+                  <div class="courses__card-image">
+                    <img src="images/courses/sat-course.jpg" alt="course">
+                    <div class="courses__card-image--inner">
+                      <div class="courses__card-image--title">
+                        Course Info
+                      </div>
+                      <ul class="courses__card-image--items">
+                        <li class="courses__card-image--item">
+                          <span>Starts:</span> May 15
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Schedule:</span> Tuesdays and Fridays at 7pm (Tashkent time)
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Skill Requirement:</span> Knowledge of school material till Grade 9
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Technical Requirement:</span> Good internet connection, laptop, and headset
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Course Duration:</span> 2 months
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Platforms Used:</span> Zoom, GG Classroom
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Max Class Capacity:</span> 20 students
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="courses__card-content">
+                    <div>
+                      <h3 class="courses__card-title">SAT Math</h3>
+                      <div class="courses__card-text">
+                        Over the course of 16 classes, this program covers ALL of the
+                        topics required for the math section of the SAT exam.
+                        <div class="courses__card-div read-less">
+                          The
+                          teaching methodology focuses on developing students' problem-
+                          solving skills as an alternative to monotonous theory
+                          memorization, making this program beneficial beyond just the
+                          exam itself. Alisher is an experienced teacher with two-years of
+                          experience teaching SAT Math and other relevant programs and
+                          boot camps. He is also responsible for math content in one of the
+                          biggest SAT preparation Telegram channels in CIS.
+                        </div>
+                      </div>
+                      <div class="courses__card-detail read-less">
+                        <p class="courses__card-price">Total Price: $119</p>
+                        <a class="courses__card-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdlSMnXNSQDfZFYbJVBpx74UKf0wm-WMOwyNdQCJowcnG034w/viewform">Click to reserve a spot</a>
+                      </div>
+                    </div>
+                    <div class="courses__card-footer">
+                      <div class="courses__card-authors">
+                        <div class="courses__card-author">
+                          <img class="courses__card-author--image" src="images/team/alisher-small.jfif" alt="teacher">
+                          <h6 class="courses__card-author--name">Alisher Alibekov</h6>
+                        </div>
+                      </div>
+                      <div class="courses__card-info">
+                        Read more..
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+                <div class="courses__card">
+                  <div class="courses__card-image">
+                    <img src="images/courses/advanced-english.jpg" alt="course">
+                    <div class="courses__card-image--inner">
+                      <div class="courses__card-image--title">
+                        Course Info
+                      </div>
+                      <ul class="courses__card-image--items">
+                        <li class="courses__card-image--item">
+                          <span>Starts:</span> May 15
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Schedule:</span> Tuesdays and Fridays at 3pm (Tashkent time)
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Skill Requirement:</span> Upper-Intermediate level and higher
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Technical Requirement:</span> Good internet connection, laptop, and headset
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Course Duration:</span> 2 months
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Platforms Used:</span> Zoom, GG Classroom
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Max Class Capacity:</span> 20 students
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="courses__card-content">
+                    <div>
+                      <h3 class="courses__card-title">Advanced English</h3>
+                      <div class="courses__card-text">
+                        Advanced English is designed to help you get your level of English to an
+                        entirely new level.
+                        <div class="courses__card-div read-less">
+                          As a part of the class, you will be introduced to texts
+                          from a range of disciplines: including philosophy, literature, science, and
+                          more. You will learn to critically assess these texts and effectively
+                          communicate your thoughts in your written works. This class is perfect
+                          for those who want to get a taste of and prepare for quality
+                          international education. Note that Advanced English will most certainly
+                          be the most challenging English class you have ever had. However, our
+                          teaching experience shows that surviving the pressure of this program
+                          will indicate your readiness in applying to the world's top universities.
+                        </div>
+                      </div>
+                      <div class="courses__card-detail read-less">
+                        <p class="courses__card-price">Total Price: $139</p>
+                        <a class="courses__card-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdlSMnXNSQDfZFYbJVBpx74UKf0wm-WMOwyNdQCJowcnG034w/viewform">Click to reserve a spot</a>
+                      </div>
+                    </div>
+                    <div class="courses__card-footer">
+                      <div class="courses__card-authors">
+                        <div class="courses__card-author">
+                          <img class="courses__card-author--image" src="images/team/valera-small.jpg" alt="teacher">
+                          <h6 class="courses__card-author--name">Valera Arakelyan</h6>
+                        </div>
+                        <div class="courses__card-author">
+                          <img class="courses__card-author--image" src="images/team/emma-small.jfif" alt="teacher">
+                          <h6 class="courses__card-author--name">Emma Grimley</h6>
+                        </div>
+                      </div>
+                      <div class="courses__card-info">
+                        Read more..
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="courses__card">
+                  <div class="courses__card-image">
+                    <img src="images/courses/ielts-course.jpg" alt="course">
+                    <div class="courses__card-image--inner">
+                      <div class="courses__card-image--title">
+                        Course Info
+                      </div>
+                      <ul class="courses__card-image--items">
+                        <li class="courses__card-image--item">
+                          <span>Starts:</span> To be determined soon
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Skill Requirement:</span> Intermediate level and higher
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Technical Requirement:</span> Good internet connection, laptop, and headset
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Course Duration:</span> 3 months
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Platforms Used:</span> Zoom, GG Classroom
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Max Class Capacity:</span> 20 students
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="courses__card-content">
+                    <div>
+                      <h3 class="courses__card-title">IELTS</h3>
+                      <div class="courses__card-text">
+                        We designed this course to prepare you for all four sections
+                        of the IETS exam in just 3 months.
+                        <span class="courses__card-div read-less">
+
+                        </span>
+                      </div>
+                      <div class="courses__card-detail read-less">
+                        <p class="courses__card-price">Total Price: $149</p>
+                        <a class="courses__card-link" href="#">Registration will start soon</a>
+                      </div>
+                    </div>
+                    <div class="courses__card-footer">
+                      <div class="courses__card-authors">
+                        <div class="courses__card-author">
+                          <img class="courses__card-author--image" src="images/team/kristina-small.jpg" alt="teacher">
+                          <h6 class="courses__card-author--name">Kristina Sargsyan</h6>
+                        </div>
+                      </div>
+                      <div class="courses__card-info">
+                        Read more..
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="courses__card">
+                  <div class="courses__card-image">
+                    <img src="images/courses/ielts-course.jpg" alt="course">
+                    <div class="courses__card-image--inner">
+                      <div class="courses__card-image--title">
+                        Course Info
+                      </div>
+                      <ul class="courses__card-image--items">
+                        <li class="courses__card-image--item">
+                          <span>Starts:</span> To be determined soon
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Skill Requirement:</span> Pre-Intermediate level and higher
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Technical Requirement:</span> Good internet connection, laptop, and headset
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Course Duration:</span> 3 months
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Platforms Used:</span> Zoom, GG Classroom
+                        </li>
+                        <li class="courses__card-image--item">
+                          <span>Max Class Capacity:</span> 20 students
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="courses__card-content">
+                    <div>
+                      <h3 class="courses__card-title">Pre-IELTS</h3>
+                      <div class="courses__card-text">
+                        This course is suitable for students who know grammar and vocabulary, but struggle to use it.
+                        <span class="courses__card-div read-less">
+
+                        </span>
+                      </div>
+                      <div class="courses__card-detail read-less">
+                        <p class="courses__card-price">Total Price: To be determined soon</p>
+                        <a class="courses__card-link" href="#">Registration will start soon</a>
+                      </div>
+                    </div>
+                    <div class="courses__card-footer">
+                      <div class="courses__card-authors">
+                        <div class="courses__card-author">
+                          <img class="courses__card-author--image" src="images/team/malika-small.jpg" alt="">
+                          <h6 class="courses__card-author--name">Malika Khakimova</h6>
+                        </div>
+                      </div>
+                      <div class="courses__card-info">
+                        Read more..
+                      </div>
+                    </div>
+                  </div>
+                </div>              
+              </div>
+
+
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__inner">
+            <nav class="footer__nav footer__about">
+              <h4 class="footer__nav-title">
+                <a href="about.html">About us</a>
+              </h4>
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="about.html#about__top">Who We Are</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="about.html#team">Our Team</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="about.html#students">Student Success</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="about.html#contact">Contact Details</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="footer__nav footer__services">
+              <h4 class="footer__nav-title">
+                <a href="courses.html">Our services</a>
+              </h4>
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="courses.html">SAT Math</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="courses.html">SAT English</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="courses.html">IELTS</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="courses.html">Pre-IELTS</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="courses.html">Advanced English</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="programs.html">Speaking Club</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="programs.html">Admissions program</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="programs.html">Essay mentorship</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="footer__nav footer__blog">
+              <h4 class="footer__nav-title">
+                <a href="news.html">News</a>
+              </h4>
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="post-1.html">From Karakalpakstan to Yale..</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="post-5.html">Freshman at NYU AD, class of 2026, with $320k scholarship</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="post-2.html">Launching new courses in May</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="post-3.html">Freshman's Long-Awaited Admissions Program</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="post-4.html">New Freshman Speaking Membership in May.</a>
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="container">
+          <div>
+            Made with love for Freshman by <a class="footer__copyright-link" href="#">Shokhrukh Mirrakhimov</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+    
+
+  <script src="js/main.js"></script>
+</body>
+</html>
